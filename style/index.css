@@ -1,0 +1,183 @@
+     
+  .work-sans-normal{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+  }
+  
+  
+  *{
+    margin: 0 auto;
+  
+   }
+
+
+  .header-section{
+    background-color: rgba(255, 144, 14, 0.1);
+   
+  }
+.header-container{  
+    
+    padding: 2% 1%;
+   margin-bottom: 5%;
+}
+/* shared style */
+    .display-flex{
+         display: flex;
+    }
+    .nav-bar{
+         align-items: center;
+         justify-content: space-between;
+         margin-bottom: 7%;
+    }
+      
+    .company-name{
+        color: rgb(19, 19, 19);
+
+        font-size: 45px;
+        font-weight: 700;
+    }
+    ul
+    {
+   margin-left: 30%;
+   align-items: center;
+   justify-content: space-between;
+    }
+
+    li{
+        list-style: none;
+        margin-right: 20%;
+        font-weight:500;
+       font-size:18px;
+    }
+
+    /* navbar-description */
+    .navbar-description{
+        flex-direction: column;
+       
+    }
+    .navabar-heading{
+        text-align: center;
+        color: rgb(19, 19, 19);
+        font-size: 64px;
+        font-weight: 700;
+        margin-bottom: 2%;
+    }
+      .navabar-heading-paragraph{
+        font-weight:400;
+     font-size:16px;
+     color: rgb(114, 114, 114);
+     text-align: center;
+     margin-bottom: 1.2%;
+      }
+      .xplore-more-btn{
+         width: 15%;
+        
+         background-color: rgb(255, 144, 14);
+         color: white;
+         border: none;
+         margin-bottom: 2%;
+         padding: 1%;
+         font-size: 20px;
+        font-weight: 600;
+      }
+      .banner-image{
+         width: 80%;
+      }
+
+      /*  */feature-list
+      /* .feature-list{
+        margin-bottom: 20%;
+      } */
+      .feature-list-container{
+        margin-top: 5%;
+        width: 75%;
+        padding: 0 4%;
+        gap: 1.2%;
+        
+      }
+      .feature-list-content{
+        margin-bottom: 7%;
+      }
+      .feature-list-images{
+        /* width: 50%; */
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 10%;
+        gap: 3%;
+      }
+      .feature-list-description{
+        
+        flex-direction: column;
+        padding:14% 0;
+        text-align: left;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 8%;
+      }
+      .feature-list-description h1{
+       font-weight: 500;
+      font-size: 45px;
+      }
+      .feature-list-description p{
+      font-weight:400;
+      font-size:16px;
+      }
+      /* architect */
+      .architect-container{
+          width: 90%;
+          position: relative;
+          gap: 16%;
+      }
+      .architect-content{
+        margin-bottom: 7%;
+      }
+      .architect-description {
+        flex-direction: column;
+        text-align: left;
+        padding: 2%;
+        
+      }
+      .architect-heading{
+         border-left: 5px solid rgb(255, 144, 14);
+         font-size: 45px;
+        font-weight: 700;
+        padding: 5%;
+        margin-left:.5%;
+       margin-bottom: 2%;
+      }
+      .architect-description p{
+      font-size: 16px;
+      font-weight: 400;
+      margin-bottom: 2%;
+      color: rgb(114, 114, 114);
+      }
+      .architect-description h3{
+      font-size: 20px;
+      font-weight: 600;
+      }
+      .architect-image{
+          width: 80%;
+          
+      }
+      .archi-list{
+          margin-left: -20%;
+      }
+      .experience{
+        width:350px;
+        height: 200px;
+        position: absolute;
+        left: 40%;
+        top: 90%;
+        border: none;
+        padding: 4%;
+      }
+        .time{
+            font-weight:700;
+            font-size:65px;
+        }
+        .exp{
+            font-size: 25px;
+            font-weight: 500;
+        }
